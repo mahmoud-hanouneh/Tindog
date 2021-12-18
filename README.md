@@ -26,7 +26,7 @@ This is a simple website made during Angela Yu on Udemy
 
 ### Links
 
-- Live Site URL: (https://tindog-orpin.vercel.app/)
+- [Live Site URL](https://tindog-orpin.vercel.app/)
 
 ## My process
 
