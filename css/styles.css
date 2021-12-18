@@ -1,0 +1,190 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat-Bold";
+
+}
+.container-fluid { /*  Includes Navigation Bar as well as Title */
+    padding: 7% 15%; /* Center the Content */
+}
+
+/* Sections */
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section {
+    background-color: #fff;
+}
+
+
+/* Heading  */
+.big-heading { /* Changing Title Font Family */
+ /*   font-family: 'Montserrat', sans-serif; */
+    font-family: 'Cairo', sans-serif;
+
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.section-heading {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+/* Nav Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+/* Nav Bar Brand */
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+}
+
+/* Nav Bar Items */
+
+.nav-item {
+    padding: 0 18px; /* Keep Nav Items slightly far of each other */
+}
+
+/* Nav Links */
+.nav-link {
+    font-size: 1.2rem; /* Determine The Size of The Words*/
+    font-family: 'Cairo', sans-serif;
+
+}
+/* Download Buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+#title { /*Title Section Has 1) Nav Bar As Well As Title*/
+    text-align: left;
+    /*background-color: #ff4c68;*/
+    /*color: white;*/
+
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%; /* top , left and right , bottom*/
+}
+/* Tilte Image */
+.title-image {   /*iPhone Image*/
+    width: 65%;
+    transform: rotate(25deg);
+    position: absolute;
+   
+}
+
+/* ------------------------ Feature Section -------------------------- */
+
+#features {
+  /* padding: 7% 15%; */
+   /*background-color: #fff;*/
+   position: relative;
+   z-index: 1; /* z-index could be removed here*/
+}
+
+.feature-title { /* Feature Title Text */
+    font-size: 1.5rem;
+}
+.feauture-box {
+   /* text-align: center; */
+    padding: 5%;
+}
+
+p {
+    font-family: "Ubuntu";
+    color: #8f8f8f;
+}
+
+.icon { /* Feature section icons */
+    color: #ef8172;
+    margin-bottom: 1.5rem;
+}
+.icon:hover {
+    color: #ff4c68; /* color gets a little bit darker when hovering over on it*/
+}
+
+/*---------------------- Testimonials Section --------------- */
+
+#testimonials {
+  /*  text-align: center; */
+    background-color: #ef8172;
+   /* color: #fff; */
+}
+
+.testimonial-text {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+ /*.carousel-item {
+    padding: 7% 15%;
+} */
+
+/*---------------------- Press --------------------*/
+
+#press {
+    background-color: #ef8172;
+  /*  text-align: center; */
+    padding: 3%;
+
+}
+/* Press Logo */
+
+#press img { 
+    width: 15%;
+    margin: 20px 35px 50px;
+}
+
+/*---------------------------- Pricing Section -----------------------*/
+
+#pricing {
+    padding: 100px;
+ /*   text-align: center; /* /* VERY VERY IMPORTANT */
+}
+
+.price-text {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width:988px) { /* Pure CSS Feauture */
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/*--------------------- Call to Action CTA ----------*/ 
+#cta {
+  /*  background-color: #ff4c68;*/
+  /*  text-align: center; /* /* Center the text */
+   /* padding: 7% 15%; */
+    color: #fff;
+    /*We could change font color in CTA section by typing color:#fff in threr*/
+}
+
+
+/* -------------- Footer Section ------------------ */
+ #footer {
+background-color: #fff;
+/*padding: 7% 15%;*/
+/*text-align: center;*/
+}
+.footer-icons {
+    margin: 20px 20px;
+}
