@@ -26,7 +26,7 @@ This is a simple website made during Angela Yu on Udemy
 
 ### Links
 
-- Live Site URL: ()
+- Live Site URL: (https://tindog-orpin.vercel.app/)
 
 ## My process
 
@@ -40,7 +40,7 @@ This is a simple website made during Angela Yu on Udemy
 
 ### Useful resources 
 
-- []()
+- [Bootstrap 4 Grid System](https://getbootstrap.com/docs/4.6/layout/grid/)
 
 ## Author
 
